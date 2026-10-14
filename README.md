@@ -11,4 +11,4 @@ Run:
 ./populate_json "input.json" "ACCOUNT_RETAIL.csv" "ACCOUNT_PREPAID.csv" "SAVING_HV.csv" "output.json" "json_key_for_retail" "json_key_for_prepaid" "json_key_for_saving"
 
 # Example usage (in the example below, we will only import retail and savings checking accounts and not prepaid account):
-g++ main.cpp "input.json" "/mnt/data/SAVING_HV\~2094182094810948209\~12834019-promet.csv" "" "/mnt/data/SAVING_HV\~2913809281039820\~31424124-promet.csv" "output.json" "entries_cea64cz1-2223-5be2-aa08-12d14f21z722" "entries_cea64cz1-2223-5be2-aa08-12d14f21z723" "entries_cea64cz1-2223-5be2-aa08-12d14f21z724"
+g++ main.cpp "input.json" "/mnt/data/SAVING_HV\~2094182094810948209\~12834019-promet.csv" "" "/mnt/data/SAVING_HV\~...\~...-promet.csv" "output.json" "entries_cea64cz1-2223-5be2-aa08-..." "entries_cea64cz1-..." "entries_cea64cz1-2223-..." where the ... are ASCII characters
